@@ -1,0 +1,63 @@
+/* Bootstrap Styling */
+/* Navigation Bar */
+.navbar {
+    /* Custom styling for the navigation bar */
+    padding-left: 40px;
+    padding-right:40px;
+}
+
+/* Custom CSS */
+/* Flex Container */
+.flex-container {
+    /* Flex container styling */
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+/* Flex Items */
+.flex-item >img{
+    /* Styling for flex items */
+    width:300px;
+    height: 200px;
+    border:2px solid black;
+    object-fit: cover;
+
+}
+
+/* CSS for Photo Gallery */
+/* Grid Container */
+.grid-container {
+    /* Grid container styling */
+    display: grid;
+    grid-template-rows: 1fr 1fr 2fr;
+    grid-template-columns: 2fr 1fr 1fr 2fr; 
+   gap:10px;
+    margin-top:50px;
+}
+.grid-item-1{
+    grid-row: span 2;
+}
+.grid-item-9{
+    grid-column:span 3;
+}
+.grid-container img{
+    /* Responsive image styles */
+     width:100%;
+    height: 100%;
+object-fit: cover;
+    border:2px solid black; 
+
+}
+#card-section{
+    margin-top: 50px;
+}
+/* Additional styling for hover effect on cards' CTA buttons */
+
+footer{
+    margin-top: 50px;
+}
+
